@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monopology</title>
+    <style>
+        .all-border {
+            border: 1px solid;
+            width: 600px;
+            height: 540px;
+            display: block;
+            margin: auto;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .box {
+            border: 2px solid black;
+            width: 70.8px;
+            height: 70px;
+        }
+
+        .box1 {
+            border: 2px solid black;
+            width: 46.2px;
+            height: 70px;
+        }
+
+        .box2 {
+            border: 2px solid black;
+            width: 70px;
+            height: 40px;
+        }
+
+        .clear-both {
+            clear: both;
+        }
+
+        .float-right {
+            float: right;
+        }
+
+        .float-left {
+            float: left;
+        }
+
+        .row1 {
+            width: 46.2px;
+        }
+
+        .col1 p {
+            font-size: 9px;
+            transform: rotate(180deg);
+            margin-top: 30px;
+        }
+
+        .start {
+            width: 30px;
+            top: 5px;
+            position: absolute;
+        }
+
+        .outer-box {
+            background-color: burlywood;
+            width: 46.2px;
+            height: 20px;
+            margin-top: 50px;
+        }
+
+        .outer-box2 {
+            background-color: royalblue;
+            width: 20px;
+            height: 40px;
+            margin-left: 50px;
+            margin-top: 0px;
+        }
+
+        .outer-box3 {
+            background-color: pink;
+            width: 20px;
+            height: 40px;
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+
+        .outer-box4 {
+            background-color: orange;
+            width: 20px;
+            height: 40px;
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+
+        .outer-box5 {
+            background-color: yellow;
+            width: 46px;
+            height: 20px;
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+
+        .outer-box6 {
+            background-color: red;
+            width: 46.2px;
+            height: 20px;
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+
+        .outer-box7 {
+            background-color: lime;
+            width: 20px;
+            height: 40px;
+            margin-left: 50px;
+            margin-top: 0px;
+        }
+
+        .mono {
+            border: 4px solid black;
+            background-color: red;
+            width: 300px;
+            height: 80px;
+            margin-top: 220px;
+            margin-left: 130px;
+            border-radius: 5px;
+            transform: rotate(-40deg);
+        }
+
+        .mono h1 {
+            font-size: 48px;
+            color: #fff;
+            padding: 0px 50px;
+            margin-top: 5px;
+            text-shadow: 1px 3px 4px black;
+        }
+
+        .mono1 {
+            border: 4px solid black;
+            background-color: orange;
+            width: 80px;
+            height: 50px;
+            margin-top: -200px;
+            margin-left: 130px;
+            border-radius: 5px;
+            transform: rotate(-40deg);
+        }
+
+        .mono1 h1 {
+            color: #fff;
+            padding: 0px 30px;
+            margin-top: 5px;
+            text-shadow: 1px 3px 4px black;
+        }
+
+        .mono2 {
+            border: 4px solid black;
+            background-color: skyblue;
+            width: 80px;
+            height: 50px;
+            margin-top: 210px;
+            margin-left: 340px;
+            border-radius: 5px;
+            transform: rotate(-40deg);
+        }
+
+        .mono1 img {
+            color: #fff;
+            padding: 0px 40px;
+            margin-top: 5px;
+            text-shadow: 1px 3px 4px black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="all-border">
+        <div class="col1 clear-both">
+            <div class="box float-left">
+                <p>
+                    Collect $200 Salary As You Pay
+                </p>
+                <img src="start.png" class="start">
+            </div>
+            <div class="box1 float-left">
+                <div class="outer-box">
+
+                </div>
+                <p style="font-size: 9px; text-align: center; margin-top: -50px; font-size: 7px;">MEDITERRANEAN <br>
+                    Avenue</p>
+            </div>
+            <div class="box1 float-left">
+                <img src="chest.jpg" style="transform: rotate(180deg); width: 50px;">
+                <p style="transform: rotate(180deg); text-align: center; font-size: 8px; margin-top: 5px;">Community <br> Chest</p>
+            </div>
+            <div class="box1 float-left">
+                <div class="outer-box">
+                </div>
+                <p style="font-size: 9px; text-align: center; margin-top: -50px; font-size: 7px;">Baltic<br> Avenue</p>
+            </div>
+            <div class="box1 float-left">
+                <p style="font-size: 9px; text-align: center; margin-top: 45px; font-size: 10px;">Income <br> Tax</p>
+            </div>
+            <div class="box1 float-left">
+                <img src="train.jpg" style="width: 70px; transform: rotate(180deg); margin-left: -10px;">
+                <p style="font-size: 9px; text-align: center; margin-top: 10px; font-size: 10px;">Reading <br> Railroad
+                </p>
+            </div>
+            <div class="box1 float-left">
+                <div class="outer-box">
+                </div>
+                <p style="font-size: 9px; text-align: center; margin-top: -60px; font-size: 10px;">Oriental <br> Avenue
+                </p>
+            </div>
+            <div class="box1 float-left">
+                <p style="font-size: 9px; text-align: center; margin-top: 50px; font-size: 10px;">Chance <br>
+                <h1 style="transform: rotate(180deg); text-align: center; margin-top: -70px;">?</h1>
+                </p>
+            </div>
+            <div class="box1 float-left">
+                <div class="outer-box">
+                </div>
+                <p style="font-size: 9px; text-align: center; margin-top: -60px; font-size: 10px;">Vermot <br> Avenue
+                </p>
+            </div>
+            <div class="box1 float-left">
+                <div class="outer-box">
+                </div>
+                <p style="font-size: 9px; text-align: center; margin-top: -60px; font-size: 10px;">Connecticut <br>
+                    Avenue</p>
+            </div>
+            <div class="box float-right">
+                <p
+                    style="font-size: 9px; text-align: center; margin-top: 8px; margin-left: -10px; font-size: 10px; transform: rotate(-140deg);">
+                     In <br> Jail <br>
+                     <img src="jail.png" style="width: 30px; display: block; margin: auto;"><br></p> 
+                     <p style="font-size: 9px; margin-top: -70px; margin-left: 40px;  transform: rotate(-140deg); text-align: center;">Just <br> Visiting</p>
+            </div>
+        </div>
+        <div class="col2">
+            <div class="box2 float-left">
+                <div class="outer-box2">
+                </div>
+                <p style="font-size: 8px; transform: rotate(90deg);margin-top: -25px; margin-left: -15px; text-align: center;">Boardwalk</p>
+            </div>
+            <div class="box2 float-right  ">
+                <div class="outer-box3">
+                </div>
+                <p style="font-size: 8px; transform: rotate(-90deg);margin-top: -30px; margin-left: 20px; text-align: center;">ST.Charles <br> Place</p>
+            </div>
+        </div>
+        <div class="col3">
+            <div class="box2 float-left clear-both">
+                <p style="font-size: 8px; transform: rotate(90deg);margin-top: 12px; margin-left: 40px; text-align: center;">Luxury <br> Tax</p>
+                <img src="luxury.png" style="width: 30px; transform: rotate(90deg); top: -30px; left: 10px; position: relative;">
+            </div>
+            <div class="box2 float-right">
+                <p style="font-size: 8px; transform: rotate(-90deg);margin-top: 10px; margin-left: -50px; text-align: center;">Electric <br> Company</p>
+                <img src="light.jpg" style="width: 50px; transform: rotate(-90deg); top: -35px; left: 20px; position: relative;">
+            </div>
+        </div>
+        <div class="col4">
+            <div class="box2 float-left clear-both">
+                <div class="outer-box2">
+                </div>
+                <p style="font-size: 8px; transform: rotate(90deg);margin-top: -30px; margin-left: -20px; text-align: center;">Park <br> Place </p>
+            </div>
+            <div class="box2 float-right">
+                <div class="outer-box3">
+                </div>
+                <p style="font-size: 8px; transform: rotate(-90deg);margin-top: -30px; margin-left: 20px; text-align: center;">Stats <br> Avenue</p>
+            </div>
+        </div>
+        <div class="col5">
+            <div class="box2 float-left clear-both">
+                <p style="font-size: 8px; transform: rotate(90deg);margin-top: 12px; margin-left: 40px; text-align: center;">Chance <h1 style="transform: rotate(90deg); margin-top: 4px;">?</h1></p >
+            </div>
+            <div class="box2 float-right">
+                <div class="outer-box3">
+                </div>
+                <p style="font-size: 8px; transform: rotate(-90deg);margin-top: -30px; margin-left: 30px; text-align: center;">Virginia <br> Avenue</p>
+            </div>
+        </div>
+        <div class="col6">
+            <div class="box2 float-left clear-both">
+                <p style="font-size: 8px; transform: rotate(90deg);margin-top: 12px; margin-left: 40px; text-align: center;">Short <br> Line</p>
+                <img src="train.jpg" style="width: 70px; transform: rotate(90deg); top: -30px; left: -10px; position: relative;">
+            </div>
+            <div class="box2 float-right">
+                <p style="font-size: 8px; transform: rotate(-90deg);margin-top: 10px; margin-left: -50px; text-align: center;">Pennsylvania <br> Railroad</p>
+                <img src="train.jpg" style="width: 70px; transform: rotate(-90deg); top: -25px; left: 5px; position: relative;">
+            </div>
+        </div>
+        <div class="col7">
+            <div class="box2 float-left clear-both">
+                <div class="outer-box7">
+                </div>
+                <p style="font-size: 8px; transform: rotate(90deg);margin-top: -30px; margin-left: -20px; text-align: center;">Pennsylvania <br> Avenue</p>
+            </div>
+            <div class="box2 float-right">
+                <div class="outer-box4">
+                </div>
+                <p style="font-size: 8px; transform: rotate(-90deg);margin-top: -30px; margin-left: 20px; text-align: center;">St. James <br> Place</p>
+            </div>
+        </div>
+        <div class="col8">
+            <div class="box2 float-left clear-both">
+                <p style="font-size: 8px; transform: rotate(90deg);margin-top: 7px; margin-left: 40px; text-align: center;">Commubity <br> Chest</p>
+                <img src="chest.jpg" style="width: 50px; top: -28px; position: relative; transform: rotate(90deg);">
+            </div>
+            <div class="box2 float-right">
+                <p style="font-size: 8px; transform: rotate(-90deg);margin-top: 10px; margin-left: -50px; text-align: center;">Community <br> Chest</p>
+                <img src="chest.jpg" style="width: 50px; top: -30px; left: 20px; position: relative; transform: rotate(-90deg);">
+            </div>
+        </div>
+        <div class="col9">
+            <div class="box2 float-left clear-both">
+                <div class="outer-box7">
+                </div>
+                <p style="font-size: 8px; transform: rotate(90deg);margin-top: -30px; margin-left: -20px; text-align: center;">North <br> Cardolina <br> Avenue</p>
+            </div>
+            <div class="box2 float-right">
+                <div class="outer-box4">
+                </div>
+                <p style="font-size: 8px; transform: rotate(-90deg);margin-top: -30px; margin-left: 20px; text-align: center;">Tennesee <br> Avenue</p>
+            </div>
+        </div>
+        <div class="col10">
+            <div class="box2 float-left clear-both">
+                <div class="outer-box7">
+                </div>
+                <p style="font-size: 8px; transform: rotate(90deg);margin-top: -30px; margin-left: -20px; text-align: center;">Pacific <br> Avenue</p>
+            </div>
+            <div class="box2 float-right">
+                <div class="outer-box4">
+                </div>
+                <p style="font-size: 8px; transform: rotate(-90deg);margin-top: -30px; margin-left: 20px; text-align: center;">New York <br> Avenue</p>
+            </div>
+        </div>
+        <div class="box float-left clear-both">
+            <p style="text-align: center; transform: rotate(50deg); margin-top: 4px; margin-left: 20px;">Go To <br> Jail</p>
+            <img src="jail.png" style="width: 28px; transform: rotate(50deg); margin-top: -13px; margin-left: 10px;">
+        </div>
+        <div class="box1 float-left">
+            <div class="outer-box5">
+            </div>
+            <p style="text-align: center; font-size: 10px;">Marvin <br> Gardens</p>
+        </div>
+        <div class="box1 float-left">
+            <p style="text-align: center; font-size: 10px;">Water <br> Works</p>
+            <img src="water.jpg" style="display: block; margin: auto; width: 30px;">
+            <h4 style="font-size: 6px; text-align: center;">$150</h4>
+        </div>
+        <div class="box1 float-left">
+            <div class="outer-box5">
+            </div>
+            <p style="text-align: center; font-size: 10px;">Ventnor <br> Avenue</p>
+        </div>
+        <div class="box1 float-left">
+            <div class="outer-box5">
+            </div>
+            <p style="text-align: center; font-size: 10px;">Atlantic <br> Avenue</p>
+        </div>
+        <div class="box1 float-left">
+            <p style="text-align: center; font-size: 10px;">B. & O. <br> Railroad</p>
+            <img src="train.jpg" style="width: 70px; margin-left: -10px;">
+        </div>
+        <div class="box1 float-left">
+            <div class="outer-box6">
+            </div>
+            <p style="text-align: center; font-size: 10px;">Illinois <br> Avenue</p>
+        </div>
+        <div class="box1 float-left">
+            <div class="outer-box6">
+            </div>
+            <p style="text-align: center; font-size: 10px;">Indiana <br> Avenue</p>
+        </div>
+        <div class="box1 float-left">
+            <p style="text-align: center; font-size: 10px;">Chance <br> <h1 style="margin-top: 10px; text-align: center;">?</h1></p>
+        </div>
+        <div class="box1 float-left">
+            <div class="outer-box6">
+            </div>
+            <p style="text-align: center; font-size: 10px;">Kentucky <br> Avenue</p>
+        </div>
+        <div class="box float-right">
+            <p style="font-size: 10px; transform: rotate(-50deg);margin-top: 10px; margin-left: -40px; text-align: center;">Free <br> Parking</p>
+            <img src="car.png" style="width: 100px; top: -60px; left: -30px; position: relative;">
+        </div>
+        <div class="mono">
+            <h1>MONOPOLY</h1>
+        </div>
+        <div class="mono1">
+            <h1 style="transform: rotate(180deg);">?</h1>
+        </div>
+        <div class="mono2">
+            <img src="chest.jpg" style="width: 60px;">
+        </div>
+    </body>
+</html>
